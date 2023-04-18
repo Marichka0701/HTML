@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+.aqua, .darkred, .green {
+  height: 100vh;
+  width: 100vw;
+}
+.darkred {
+  background: #c04646;
+}
+.aqua {
+  background: aqua;
+}
+.green {
+  background: green;
+}
+.darkred, .aqua, .green {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-title, .description {
+  max-width: 90vw;
+  text-align: center;
+}

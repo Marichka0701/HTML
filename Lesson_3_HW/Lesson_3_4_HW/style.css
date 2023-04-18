@@ -1,0 +1,22 @@
+body, .screen, h2 {
+  margin: 0;
+}
+h2, p {
+  max-width: 90vw;
+  text-align: center;
+}
+.top-screen, .bottom-screen {
+  height: 50vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top-screen {
+  background: lightpink;
+}
+.bottom-screen {
+  background: darkgray;
+}

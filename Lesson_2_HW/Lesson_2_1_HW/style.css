@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Fjalla+One&family=Indie+Flower&family=Rubik+Pixels&family=Sedgwick+Ave+Display&display=swap');
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 40px;
+}
+
+.flex-item {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #ffebca;
+}
+
+.paragraph {
+  font-size: 30px;
+}
+
+.paragraph-1 {
+  font-family: 'Rubik Pixels', cursive;
+}
+
+.paragraph-2 {
+  font-family: 'Sedgwick Ave Display', cursive;
+  text-align: center;
+}
+
+.paragraph-3 {
+  font-family: 'Dancing Script', cursive;
+}
+
+.paragraph-4 {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.paragraph-5 {
+  font-family: 'Indie Flower', cursive;
+}
+
+

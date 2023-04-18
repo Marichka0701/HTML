@@ -1,0 +1,101 @@
+body, .wrapper {
+  padding: 0;
+  margin: 0;
+
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 51px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+p, h1 {
+  margin: 0;
+}
+
+
+/*header*/
+.header {
+  width: 100%;
+  height: 197px;
+  background: rgba(217, 217, 217, 0.1);
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nav-links {
+  padding-right: 104px;
+}
+.nav-links ul {
+  padding: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 93px;
+}
+.active {
+  color: #3D6FB4;
+}
+.not-active {
+  color: #7A7070;
+}
+
+
+/*main*/
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.info {
+  max-width: 608px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+
+}
+.info h1 {
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 101px;
+}
+.buttons-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 36px;
+}
+.btn-watch {
+  width: 150px;
+  height: 55px;
+  border: 1px solid #000000;
+  background: transparent;
+  border-radius: 30px;
+
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+}
+.btn-learn {
+  width: 130px;
+  height: 55px;
+  background: #ECBCBC;
+  border: 1px solid #000000;
+  border-radius: 30px;
+
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+}
