@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lesson_4_4_HW</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <section>
+      <h1>Заповніть поля для анкети: </h1>
+      <form action="#">
+        <div>
+          <label for="name">Ваше ім'я:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="surname">Ваше прізвище:</label>
+          <input type="text" id="surname" name="surname" required>
+        </div>
+
+        <div>
+          <label>Ваша стать:</label>
+          <input type="radio" id="man" name="man" value="man">
+          <label for="man">Жіноча</label>
+          <input type="radio" id="female" name="female" value="female">
+          <label for="female">Чоловіча</label>
+        </div>
+        <p>Послугами якої сотової компанії Ви користуєтесь: </p>
+        <div>
+          <input type="checkbox" id="kyivstar" name="kyivstar"/>
+          <label for="kyivstar">Київстар</label>
+          <input type="checkbox" id="MTS" name="MTS"/>
+          <label for="kyivstar">MTS</label>
+          <input type="checkbox" id="Life" name="Life"/>
+          <label for="Life">Life:)</label>
+          <input type="checkbox" id="PeopleNet" name="PeopleNet"/>
+          <label for="PeopleNet">PeopleNet</label>
+          <input type="checkbox" id="Utel" name="Utel"/>
+          <label for="Utel">Utel</label>
+        </div>
+        <div class="buttons">
+          <button type="submit">Надіслати анкету</button>
+          <button type="reset">Очистити бланк</button>
+        </div>
+      </form>
+    </section>
+  </div>
+
+</body>
+</html>

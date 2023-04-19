@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  background: cornflowerblue;
+}
+h2 {
+  margin: 0;
+}
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section {
+  width: 30vw;
+  height: 40vh;
+  background: white;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.title h2 {
+  padding: 5px 0 0 20px;
+}
+.title h2 span {
+  color: gray;
+}
+section div {
+  width: 100%;
+  height: 20%;
+}
+form {
+  height: 80%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 20px;
+}
+input {
+  width: 90%;
+  height: 13%;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+::placeholder {
+  font-size: 18px;
+  padding: 5px;
+}
+.btn-sign-up {
+  width: 50%;
+  height: 13%;
+  border: 1px solid #ffad02;
+  border-radius: 5px;
+
+  color: black;
+  font-weight: 700;
+}
