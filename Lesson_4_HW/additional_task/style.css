@@ -1,0 +1,140 @@
+/*-----------------------------general-----------------------------*/
+body, html {
+  font-family: 'KoHo', sans-serif;
+  font-weight: 400;
+  color: #000000;
+}
+html {
+  scroll-behavior: smooth;
+}
+h1, h2, h3, h4, p, body, html {
+  margin: 0;
+  font-weight: 400;
+}
+.section-one, .section-two, .section-three {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*---------------------------section one--------------------------------*/
+.section-one {
+  background: url("bg-viewOne.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container_section-one {
+  width: 1059px;
+  height: 393px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.image, .info {
+  width: 50%;
+  height: 100%;
+}
+.info {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 44px;
+}
+.title {
+  font-size: 45px;
+  line-height: 58px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.paragraph {
+  font-size: 25px;
+  line-height: 32px;
+}
+.btn-section-one {
+  width: 78%;
+  height: 20%;
+  background: rgba(217, 217, 217, 0.6);
+  border: 1px solid rgba(156, 152, 152, 0.1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+
+  font-family: 'KoHo', sans-serif;
+  font-size: 30px;
+  line-height: 39px;
+}
+/*-----------------------------section two------------------------------*/
+.section-two, .section-three {
+  background: url("bg-viewTwo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container_section-two {
+  width: 60vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 105px;
+}
+.video-youtube {
+  width: 100%;
+  height: 50vh;
+}
+.about-video {
+  width: 100%;
+  font-size: 35px;
+  line-height: 46px;
+}
+/*-----------------------------section three-------------------------------*/
+.block-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.item {
+  width: 27vw;
+  height: 70vh;
+  background: rgba(83, 83, 83, 0.4);
+  padding: 25px;
+  padding-bottom: 100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+.info-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.info-item h2 {
+  font-size: 35px;
+  line-height: 46px;
+}
+.info-item p {
+  font-size: 35px;
+  line-height: 46px;
+}
+.btn-section-three {
+  background: rgba(217, 217, 217, 0.6);
+  border: 1px solid rgba(156, 152, 152, 0.1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  width: 90%;
+  height: 76px;
+
+  font-family: 'KoHo', sans-serif;
+  font-size: 35px;
+  line-height: 46px;
+  color: #6B6666;
+}
