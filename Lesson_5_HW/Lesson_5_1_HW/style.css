@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background: lightcyan;
+  padding: 50px 0;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.wrapper div {
+  background: white;
+  border-radius: 30px;
+  padding: 30px;
+}
+/*-------------------------------block 1------------------------------*/
+div.block-1 > ul > li:nth-child(even) {
+  color: deeppink;
+}
+/*-------------------------------block 2------------------------------*/
+div.block-2 > ul > li:nth-child(odd) {
+  font-size: 22px;
+}
+/*-------------------------------block 3------------------------------*/
+div.block-3 > ul > li:nth-child(2n+4):after {
+  content: "!";
+}
+/*-------------------------------block 4------------------------------*/
+div.block-4 > ul > li:last-child {
+  color: darkviolet;
+}
+/*-------------------------------block 5------------------------------*/
+div.block-5 > ul > li:first-letter {
+  font-size: 30px;
+  color: red;
+}
