@@ -79,6 +79,12 @@ nav.navbar> div.container-nav {
   font-weight: 400;
   font-size: 17px;
   color: #848895;
+  transition: 0.5s;
+}
+.menu-links a.nav-link:hover {
+  color: whitesmoke;
+  transition: 0.5s;
+  transform: scale(1.05);
 }
 /*------------------------------- section 1 ---------------------------*/
 .section-one {
@@ -118,6 +124,7 @@ nav.navbar> div.container-nav {
   background: linear-gradient(98.88deg, #8C01FA -2.99%, #000000 102.28%);
   border: 1px solid #000000;
   border-radius: 36px;
+  transition: 1s;
 
   font-size: 15px;
   line-height: 20px;
@@ -125,18 +132,29 @@ nav.navbar> div.container-nav {
   text-transform: uppercase;
   color: #FFFFFF;
 }
+.start:hover {
+  transition: 1s;
+  transform: scale(1.1);
+  border: 1px solid white;
+}
 .read {
   width: 146px;
   height: 52px;
   background: #000000;
   border: 1px solid #FFFFFF;
   border-radius: 36px;
+  transition: 1s;
 
   font-size: 15px;
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
+}
+.read:hover {
+  transition: 1s;
+  transform: scale(1.1);
+  border: 1px solid #A962FF;
 }
 .text-blue {
   font-size: 15px;
@@ -156,15 +174,13 @@ nav.navbar> div.container-nav {
   justify-content: space-evenly;
   gap: 30px;
 }
-/*.companies img:nth-child(2) {*/
-/*  margin: 0 36px 0 40px;*/
-/*}*/
-/*.companies img:nth-child(4) {*/
-/*  margin: 0 57px 0 44px;*/
-/*}*/
-/*.companies img:nth-child(6) {*/
-/*  margin: 0 24px 0 52px;*/
-/*}*/
+.companies img {
+  transition: .5s;
+}
+.companies img:hover {
+  transition: .5s;
+  transform: scale(1.15);
+}
 /*------------------------------- section 2 ---------------------------*/
 .section-two {
   width: 100%;
@@ -304,6 +320,11 @@ nav.navbar> div.container-nav {
   background: #111111;
   border: 1px solid #111111;
   border-radius: 15px;
+  transition: .4s;
+}
+.option:nth-child(n+2):hover {
+  transition: .3s;
+  border: 1px solid whitesmoke;
 }
 .active-link {
   border: 2px solid #A962FF;
